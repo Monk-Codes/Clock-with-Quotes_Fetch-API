@@ -1,0 +1,79 @@
+body{
+    background-color:blanchedalmond;
+}
+#clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: blueviolet;
+    font-size: larger;
+    font-family:Orbitron;
+    letter-spacing: 10px;
+}
+.button {
+    background-color: blanchedalmond; 
+    color: blueviolet; 
+    border: 2px solid burlywood;
+    position: absolute ;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: large;
+    letter-spacing: 4px;
+    font-family: Orbitron;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: blueviolet;
+    color: white;
+  }
+  .button1 {
+    background-color: blanchedalmond; 
+    color: blueviolet; 
+    border: 2px solid burlywood;
+    position: absolute ;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 8px 16px;
+    text-align: center;
+    font-size: large;
+    letter-spacing: 4px;
+    font-family: Orbitron;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1:hover {
+    background-color: blueviolet;
+    color: white;
+  }
+  .glow {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6
+    }
+    to {
+      text-shadow:  0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073
+
+    }
+  }
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(174, 125, 221);
+    color: white;
+    text-align: right;
+ }
